@@ -10,7 +10,7 @@ def main():
 	x = 38.392535
 	y = -110.789353
 	ax.imshow(img, extent=[38.384917, 38.427722, -110.818972, -110.765000])
-	
+	ax.axis([38.384917, 38.427722, -110.818972, -110.765000])
 	ax.plot(x, y, '--', linewidth=1, color='firebrick')
 	fig.savefig('graph.png')
 
